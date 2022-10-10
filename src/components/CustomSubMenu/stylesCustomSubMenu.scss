@@ -1,0 +1,18 @@
+.customSubMenu{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &_list{
+        width: 100%;
+        display: flex;
+        align-items: center;
+       &_item{
+        text-align: center;
+        width: 50%;
+       }
+    }
+}
